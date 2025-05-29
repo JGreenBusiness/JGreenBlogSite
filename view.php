@@ -1,3 +1,6 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <?php
 $file = "posts/" . basename($_GET['file']);
 if (file_exists($file)) {
